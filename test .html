@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ h1 {color: rgb(105, 15, 15);}
+ 
+ h2 {color: rgb(0, 232, 15);}
+</style>
+</head>
+<body>
+<h1>HTML form</h1>
+<br>
+<form>
+<h2>First name:</h2><br>
+  <input type="text" name="firstname"><br>
+  <h2>Last name:</h2><br>
+  <input type="text" name="lastname"><br>
+  <h2>Email:</h2><br>
+  <input type="email" name="email"><br>
+  <h2>Gender:</h2><br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+  <h2>Branch:</h2><br>
+  <select branch="dept">
+    <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="CSE">CSE</option>
+  <option value="CE">CE</option>
+  <option value="ME">ME</option>
+</select>
+<br>
+<h2>Address:</h2><br>
+<textarea rows="4" cols="50" name="address">
+Enter text here...</textarea>
+<br>
+<h2>Programming languages:</h2><br>
+<input type="checkbox" name="C" value="C"> C<br>
+  <input type="checkbox" name="C#" value="C#">C#<br>
+  <input type="checkbox" name="C++" value="C++">C++<br>
+  <input type="checkbox" name="Python" value="Python">Python<br>
+  <input type="checkbox" name="Java" value="Java" checked>Java<br><br>
+ <input type="submit" value="Submit">
+</form>
+</body>
+</html>
